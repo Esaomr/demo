@@ -20,9 +20,14 @@ public class UserController {
     @RequestMapping(value = "/User", method = RequestMethod.GET)
     public List<CustomUser> SelectUser(CustomUser customUser){
         List<CustomUser> users = userService.SelectUser(customUser);
-//        if(users == null){
-//            return
-//        }
         return users;
     }
+
+    //新增用户信息
+    @RequestMapping(value = "/User", method = RequestMethod.POST)
+    public List<CustomUser> InsertUser(CustomUser customUser){
+        List<CustomUser> users = userService.InsertUser(customUser);
+        return users;
+    }
+
 }
