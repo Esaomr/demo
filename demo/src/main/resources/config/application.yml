@@ -4,7 +4,7 @@ server:
 spring:
  mvc:
   view:
-   prefix: /
+   prefix: /html/
    suffix: .html
  datasource:
   username: root

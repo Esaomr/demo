@@ -8,8 +8,19 @@
         <result column="password" jdbcType="VARCHAR" property="password" />
     </resultMap>
  
-    <select id="Sel" resultType="com.example.demo.entity.User">
-        select * from user where id = #{id}
+    <select id="SelectUser" parameterType="com.example.demo.entity.CustomUser" resultType="com.example.demo.entity.User">
+        SELECT * FROM User
+        <where>
+            <if test="User.userid != null">
+                AND userid = #{User.userid}
+            </if>
+            <if test="User.username != null">
+                AND username = #{User.username}
+            </if>
+            <if test="User.password != null">
+                AND password = #{User.password}
+            </if>
+        </where>
     </select>
  
 </mapper>
