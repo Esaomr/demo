@@ -6,13 +6,44 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserMapper userMapper;
 
+    /**
+     * 查询User
+     * @param customUser user拓展类
+     */
     @Override
     public List<CustomUser> SelectUser(CustomUser customUser) {
         return userMapper.SelectUser(customUser);
+    }
+
+    /**
+     * 新增User
+     * @param customUser user拓展类
+     */
+    @Override
+    public List<CustomUser> InsertUser(CustomUser customUser) {
+        return userMapper.InsertUser(customUser);
+    }
+
+    /**
+     * 修改User
+     * @param customUser user拓展类
+     */
+    @Override
+    public List<CustomUser> UpdateUser(CustomUser customUser) {
+        return userMapper.UpdateUser(customUser);
+    }
+
+    /**
+     * 删除User
+     * @param customUser user拓展类
+     */
+    @Override
+    public List<CustomUser> DeleteUser(CustomUser customUser) {
+        return userMapper.DeleteUser(customUser);
     }
 }
