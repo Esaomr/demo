@@ -1,7 +1,6 @@
 package com.example.demo.service;
 
-import com.example.demo.entity.SysPermission;
-import com.example.demo.entity.SysRole;
+import com.example.demo.model.SysRole;
 import com.example.demo.mapper.SysRoleMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

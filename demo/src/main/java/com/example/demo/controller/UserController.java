@@ -1,10 +1,13 @@
 package com.example.demo.controller;
 
-import com.example.demo.entity.CustomUser;
+import com.example.demo.model.CustomUser;
 import com.example.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
@@ -16,7 +19,7 @@ public class UserController {
     private UserService userService;
 
     /**
-     * 一般页面跳转
+     * User页面跳转
      */
     @RequestMapping(value = "/User/{page}", method = RequestMethod.GET)
     public String UserPageSkip(@PathVariable("page") String page){

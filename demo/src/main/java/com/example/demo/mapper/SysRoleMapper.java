@@ -1,6 +1,6 @@
 package com.example.demo.mapper;
 
-import com.example.demo.entity.SysRole;
+import com.example.demo.model.SysRole;
 import org.springframework.stereotype.Repository;
 
 @Repository

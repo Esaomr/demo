@@ -1,6 +1,6 @@
-package com.example.demo.config;
+package com.example.demo.comm.config;
 
-import com.example.demo.entity.User;
+import com.example.demo.model.User;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;

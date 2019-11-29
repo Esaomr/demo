@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
 
-import com.example.demo.entity.SysPermission;
+import com.example.demo.model.SysPermission;
 import com.example.demo.mapper.SysPermissionMapper;
 
 import org.springframework.beans.factory.annotation.Autowired;

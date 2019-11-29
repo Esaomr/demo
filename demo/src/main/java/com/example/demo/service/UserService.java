@@ -1,7 +1,6 @@
 package com.example.demo.service;
 
-import com.example.demo.entity.CustomUser;
-import org.springframework.stereotype.Service;
+import com.example.demo.model.CustomUser;
 
 import java.util.List;
 

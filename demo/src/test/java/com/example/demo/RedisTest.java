@@ -1,7 +1,7 @@
 //package com.example.demo;
 //
 //import com.example.demo.comm.RedisUtils;
-//import com.example.demo.entity.User;
+//import com.example.demo.model.User;
 //import com.example.demo.service.UserService;
 //import org.junit.Test;
 //import org.junit.runner.RunWith;

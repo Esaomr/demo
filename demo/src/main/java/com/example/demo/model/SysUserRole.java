@@ -1,4 +1,4 @@
-package com.example.demo.entity;
+package com.example.demo.model;
 
 public class SysUserRole {
     static final long serialVersionUID = 1L;

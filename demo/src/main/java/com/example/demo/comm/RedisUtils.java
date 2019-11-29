@@ -1,6 +1,6 @@
 package com.example.demo.comm;
 
-import com.example.demo.entity.User;
+import com.example.demo.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;

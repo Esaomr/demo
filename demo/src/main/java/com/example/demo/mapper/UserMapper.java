@@ -1,6 +1,6 @@
 package com.example.demo.mapper;
 
-import com.example.demo.entity.CustomUser;
+import com.example.demo.model.CustomUser;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

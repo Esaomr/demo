@@ -1,6 +1,6 @@
 package com.example.demo.mapper;
 
-import com.example.demo.entity.SysPermission;
+import com.example.demo.model.SysPermission;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

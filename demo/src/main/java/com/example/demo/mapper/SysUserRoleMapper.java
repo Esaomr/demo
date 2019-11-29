@@ -1,6 +1,6 @@
 package com.example.demo.mapper;
 
-import com.example.demo.entity.SysUserRole;
+import com.example.demo.model.SysUserRole;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
